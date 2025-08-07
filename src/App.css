@@ -15,7 +15,8 @@ body{
 }
 button{
   background-color: plum;
-  padding-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 0;
   padding-bottom: 4px;
   padding-top: 3px;
