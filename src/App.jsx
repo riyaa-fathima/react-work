@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+// import "./App.css";
 import Task from "./components/Task/Task";
 import AddTask from "./components/AddTask/AddTask";
 import Counter from "./components/Counter/Counter";
+import Form from "./components/Form/Form";
 
 function App() {
   const [input, setInput] = useState("");
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Counter />
+      <Form/>
     </>
   );
 }
